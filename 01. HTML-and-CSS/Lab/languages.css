@@ -1,0 +1,11 @@
+body {
+	background: #EEE;
+	font-size: 24pt;
+}
+
+ span {
+ 	border: 1px solid #AAA;
+ 	border-radius: 8pt;
+ 	background: #CCC;
+ 	padding: 5pt;
+ }
