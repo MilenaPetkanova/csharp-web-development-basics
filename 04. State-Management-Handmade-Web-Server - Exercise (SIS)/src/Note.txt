@@ -1,2 +1,0 @@
-Note:
-It may seems like the project contains the same code as the official repository, which is exactly the truth, but not because I've copy-pasted it, but because I've refactured it so hardly, using the lectors repo.
