@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>IRunes</h1>
+    <nav>
+        <ul>
+            <li><a href="/index/home">Home</a></li>
+            <li><a href="/albums/all">Albums</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div>{{album}}</div>
+    <a href="/tracks/create?albumId={{albumId}}">Create Track</a>
+    <a href="/albums/all" class="btn btn-success">Back To All</a>
+    <h1><b>Tracks</b></h1>
+    <div>{{tracks}}</div>
+</body>
+</html>

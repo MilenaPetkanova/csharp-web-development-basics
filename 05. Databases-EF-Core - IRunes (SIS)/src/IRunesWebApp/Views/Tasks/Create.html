@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <p>Create Track</p>
+        <hr>
+        <form method="post" action="/tracks/create?albumId={{albumId}}">
+            <label>Name</label>
+            <input type="text" class="form-control" name="name" aria-describedby="name" placeholder="Name">
+            <label>Link</label>
+            <input type="url" class="form-control" name="link" aria-describedby="link" placeholder="Link">
+            <label>Price</label>
+            <input type="number" min="0.01" class="form-control" name="price" aria-describedby="price" placeholder="Price">
+            <hr>
+            <button type="submit">Create</button>
+            <a href="/albums/details?id={{albumId}}" class="btn btn-success btn-center">Back To All</a>
+        </form>
+    </div>
+</body>
+</html>
